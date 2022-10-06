@@ -1,3 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background_image {
+  background-image: url(/css-demo/assets/img/marble.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 h1 {
   font-family: 'Splash', cursive;
 }
@@ -5,3 +17,4 @@ h1 {
 li {
   font-family:arial narrow;
 }
+
