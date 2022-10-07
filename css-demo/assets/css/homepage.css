@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.background-image {
+body {
   background-image: url(/css-demo/assets/img/blue-marble.jpg);
 }
 
