@@ -3,8 +3,9 @@
   padding: 0;
 }
 
-.body{
-  background-image: url(/css-demo/assets/img/marble.jpg)
+.background-image {
+  background-image: url(/css-demo/assets/img/marble.jpg);
+  background-size: cover;
 }
 
 h1 {
