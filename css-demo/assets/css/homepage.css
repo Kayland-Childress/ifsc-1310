@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  background-image: url(/css-demo/assets/img/marble.jpg)
+}
+
 h1 {
   font-family: 'Splash', cursive;
 }
