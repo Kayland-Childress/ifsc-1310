@@ -1,8 +1,3 @@
-body{
-  border-color: (#A48111);
-  
-}
-
 h1 {
   font-family: 'Splash', cursive;
 }
@@ -11,3 +6,17 @@ li {
   font-family:"arial narrow";
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #A48111
+}
