@@ -8,9 +8,9 @@ h1 {
   
 }
 
-li {
+ul li {
   font-family:"arial narrow";
-  font-size: 2em;
+  font-size: small;
   margin: 0;
   padding: 0;
   text-align: center;
