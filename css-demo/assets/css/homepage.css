@@ -1,9 +1,17 @@
 h1 {
   font-family: 'Splash', cursive;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li {
   font-family:"arial narrow";
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 body {
@@ -15,7 +23,3 @@ body {
   width: 100vh;
 }
 
-header {
-  text-align: center;
-  vertical-align: middle;
-}
