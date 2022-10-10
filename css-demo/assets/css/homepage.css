@@ -8,6 +8,7 @@ li {
 
 body {
   background-image: url("../img/blue-marble.jpg");
-  height:250px;
+  height:auto;
   width: auto;
+  background-repeat: no-repeat;
 }
