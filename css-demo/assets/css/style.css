@@ -3,5 +3,10 @@ h1{
 }
 
 body{
-    background-color:hotpink;
+    background-image: url("../img/abstract-global.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
 }
