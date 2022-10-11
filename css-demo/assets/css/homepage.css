@@ -1,8 +1,7 @@
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 5em;
-  margin: 0;
-  padding: 0;
+  
   text-align: center;
   
   
@@ -11,6 +10,9 @@ h1 {
 li {
   font-family:"arial narrow";
   font-size: medium;
+  text-align: center;
+  text-align: left 50% right 50%;
+
   
 }
 
