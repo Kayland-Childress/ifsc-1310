@@ -1,10 +1,8 @@
 h1{
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: #fffafa;
 }
 
 body{
-    color: #fffafa;
     background-image: url("../img/abstract-global.jpg");
     background-size: cover;
     background-position: center;
