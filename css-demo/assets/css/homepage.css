@@ -25,13 +25,14 @@ header.primary{
   padding-left: 40px;
   padding: 40px 40px 40px 40px;
   padding: 20px 40px;
-  text shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #000000;
 }
 
 header.primary h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 5em;
   margin: 20px 0 10px;
+  text-align: center;
 }
 
 .list {
@@ -57,7 +58,7 @@ header.primary h1 {
 .list a {
   color: #072635;
   text-decoration: none;
-  background: rgba(101, 140, 171, .4);
+  background: rgba(101, 140, 171, .8);
   padding: 8px 16px;
   border-radius: 20px;
   transition: .5s;
@@ -65,7 +66,7 @@ header.primary h1 {
  }
 
 .list a:hover, .list a:active{
-  background: rgba(101, 140, 17, 0.8);
+  background: rgb(101, 140, 171);
 }
 
 
