@@ -33,6 +33,10 @@ header.primary h1 {
   font-size: 5em;
   margin: 20px 0 10px;
   text-align: center;
+  justify-content: center;
+  border-color: rgb(7, 38, 53, 0.4);
+  box-sizing: border-box;
+
 }
 
 .list {
