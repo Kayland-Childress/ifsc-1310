@@ -15,90 +15,63 @@ body {
   height: 100vh;
   width: 100vh;
 }
-header.primary{
-  background-color: #072635;
-  text-align: center;
-  color: #c5e2ed;
-  padding: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding: 40px 40px 40px 40px;
-  padding: 20px 40px;
-  text-shadow: 1px 1px #000000;
-}
 
-header.primary h1 {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 5em;
-  margin: 20px 0 10px;
-  text-align: center;
-  justify-content: center;
-  border-color: rgb(7, 38, 53, 0.4);
-  box-sizing: border-box;
-
-}
-
-.list {
-  max-width: 960px;
-  margin: auto;
-  justify-content: space-between;
+nav{
+  background-color: #c5e2ed;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 500px;
+  height: 800px;
+	margin-right: auto;
+	margin-left: auto;
   align-items: center;
 }
 
-.list ul {
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family:"arial narrow";
-  font-size: larger;
+h1{
   text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 5em;
+  margin: 20px 0 10px;
 }
 
-.list li {
+ul li{
+  color: #ffffff;
+  display: flex;
   list-style-type: none;
+  text-align: center;
+  padding: 2px;
+  justify-content: space-around;
+  font-family: 'Arial Narrow';
+  font-size: large;
 }
 
-.list a {
-  color: #072635;
+a{
+  color: #ffffff;
   text-decoration: none;
   background: rgba(101, 140, 171, .8);
   padding: 8px 16px;
-  border-radius: 20px;
-  transition: .5s;
-  border: 1px solid hsla(0, 0%, 0%, .6);
- }
-
-.list a:hover, .list a:active{
-  background: rgb(101, 140, 171);
+  border-radius: 0px;
+  border: 1px solid hsla (0, 0%, 0%, .6);
+  cursor: pointer;
+  transition-duration: .5s;
 }
 
+  a:hover{
+  background-color: rgb (164, 129, 17);
+}
 
-
-
-@media screen and (max-width:600px){
-  
-  header.primary{
-    width: 60vw;
-    margin: 0 auto;
-  }
-  
-  .list ul {
-    flex-direction: column;
-    width: 60vw;
-    margin: 0 auto;
-  }
-  
-  .list a{
-    display: block;
-  }
-  
-  .list li{
-    martin-bottom: 10px;
-  }
-  footer h6{
-    width: 60vw;
-    margin: 0 auto;
-  }
+h2{
+  background-color: #072635;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Arial Narrow';
+  width: 500px;
+  align-items: center;
+  margin: auto;
 }
