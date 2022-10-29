@@ -1,5 +1,7 @@
 html{
   box-sizing: border-box;
+  max-height: 100%;
+  max-width: 100%;
 }
 *,
 *:before,
@@ -16,13 +18,11 @@ body {
   width: 100vh;
 }
 
-nav{
-  background-color: rgb(197, 226, 237, .8);
-	border: 3px solid #A48111;
-	width: 500px;
-  height: 800px;
-	margin-left: 70%;
-  align-items: center;
+header{
+	margin:auto;
+  align-items: center; 
+  text-align: center;
+  margin: 20px 0 10px;
 }
 
 h1{
@@ -30,6 +30,18 @@ h1{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 5em;
   margin: 20px 0 10px;
+  color: #ffffff;
+  text-shadow: #A48111 5px 0px 10px;
+}
+
+nav{
+  background-color: rgb(197, 226, 237, .8);
+	border: 3px solid #A48111;
+	width: 500px;
+  height: 800px;
+	margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 ul li{
@@ -41,8 +53,19 @@ ul li{
   justify-content: space-around;
   font-family: 'Arial Narrow';
   font-size: large;
+  
 }
 
+#plab{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 a{
   color: #ffffff;
   text-decoration: none;
@@ -53,10 +76,12 @@ a{
   cursor: pointer;
   transition-duration: .5s;
   border: 1px solid #A48111;
+  
 }
 
   a:hover, a:active{
   background-color: #A48111;
+  box-shadow: #A48111 1px 0 10px;
 }
 
 h2{
@@ -64,7 +89,7 @@ h2{
   color: #ffffff;
   text-align: center;
   font-family: 'Arial Narrow';
-  width: 500px;
+  width: auto;
   align-items: center;
   margin: auto;
 }
