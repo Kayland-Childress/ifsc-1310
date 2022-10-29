@@ -17,19 +17,11 @@ body {
 }
 
 nav{
-  background-color: #c5e2ed;
-	border-top-width: 2px;
-	border-right-width: 2px;
-	border-bottom-width: 2px;
-	border-left-width: 2px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
+  background-color: rgb(197, 226, 237, .8);
+	border: 3px solid #A48111;
 	width: 500px;
   height: 800px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 70%;
   align-items: center;
 }
 
@@ -60,10 +52,11 @@ a{
   border: 1px solid hsla (0, 0%, 0%, .6);
   cursor: pointer;
   transition-duration: .5s;
+  border: 1px solid #A48111;
 }
 
-  a:hover{
-  background-color: rgb (164, 129, 17);
+  a:hover, a:active{
+  background-color: #A48111;
 }
 
 h2{
