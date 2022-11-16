@@ -1,11 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
 
 body {
-    background-image: url("../img/space1.jpg");
-    background-size: cover;
-    background-position: 0 0 0 0;
-    background-repeat: no-repeat;
-    height: 100;
-    width: 100;
+  background-color: rgb(255, 255, 255);
+  font-family: "Verdana";
+  margin: 0;
+}
+
+header.primary{
+  text-align: center;
+  background-color: black;
+  color:#ffffff;
+  padding: 6em 2m;
+  position: relative;
+}
+
+header.primary::before {
+  content: "";
+  background-image: url("../img/dragon-logo2.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
   }
+
+header.primary h1{
+  font-size: 4em;
+  color:#ffffff;
+  position: relative;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  width: 460px;
+  height: 70px;
+  margin: auto;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+header.primary h2{
+  font-size: 2em;
+  margin: 20px auto 40px;
+  position: relative;
+}
+
+header.primary nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+header.primary nav li {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #000000;
+  background-color: rgba(142, 166, 184, 0.4);
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition: 0.6s;
+  display: block;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
