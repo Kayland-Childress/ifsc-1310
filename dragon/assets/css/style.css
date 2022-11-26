@@ -14,9 +14,18 @@ html {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #000000;
   font-family: "Verdana";
   margin: 0;
+  color: white;
+}
+ 
+h1, h2, h3{
+  text-shadow: 2px 2px 5px #ff00ff;
+}
+
+h4{
+  text-decoration:underline overline #ff00ff
 }
 
 header.primary{
@@ -29,25 +38,27 @@ header.primary{
 
 header.primary::before {
   content: "";
-  background-image: url("../img/dragon-logo2.jpg");
-  background-size: cover;
+  background-image: url("../img/editLogo.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
   position: absolute;
+  background-position: center;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.8;
   }
 
 header.primary h1{
   font-size: 4em;
-  color:#ffffff;
+  color:white;
   position: relative;
   margin: 20px 0;
 }
 
 header.primary h1 a{
-  color:#ffffff;
+  color:white;
   width: 460px;
   height: 70px;
   margin: auto;
@@ -91,5 +102,82 @@ header.primary nav a:visited {
 
 header.primary nav a:hover,
 header.primary nav a:active {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 0, 255, 0.8);
+}
+
+/*---------Articles---------*/
+
+section#articles .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 0 4em 0;
+}
+
+section#articles h3,
+#content h3 {
+  flex: 0 0 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+section#articles h3 {
+  font-size: 1.5em;
+  text-shadow: none;
+}
+
+#articles article.post {
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(255, 0, 255, 0.4);
+  padding: 10px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  background: black;
+}
+
+
+#articles article.post:hover {
+  box-shadow: 0 8px 16px rgba(255, 0, 255, 0.4);
+}
+
+#articles .post figure {
+  margin: 0;
+}
+
+#articles .post img {
+  border-radius: 10px;
+}
+
+#articles dt {
+  padding: 0 20px;
+  color: white;
+  text-decoration: underline #ff00ff;
+}
+#articles dd {
+  margin-bottom: 20px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*----------Footer----------*/
+footer#colophon a{
+  color: #ff00ff
+}
+footer#colophon h6 {
+  color:white;
+}
+
+/*----------Table----------*/
+th, td {
+  border: 1px solid #ff00ff;
+}
+
+th{
+  background-color: #ff00ff;
 }
